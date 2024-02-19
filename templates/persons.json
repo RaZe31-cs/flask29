@@ -1,0 +1,32 @@
+{
+    "person": [
+        {
+            "name": "Михаил",
+            "surname": "Астафьев",
+            "age": 57,
+            "path_photo": "static/img/misha.jpg",
+            "specialization": ["программист", "инженер"]
+        },
+        {
+            "name": "Александр",
+            "surname": "Орлов",
+            "age": 30,
+            "path_photo": "static/img/sasha.jpg",
+            "specialization": ["механик", "ремонтник"]
+        },
+        {
+            "name": "Савелий",
+            "surname": "Иванов",
+            "age": 35,
+            "path_photo": "static/img/saveliy.jpg",
+            "specialization": ["конструктор", "повар"]
+        },
+        {
+            "name": "Евгения",
+            "surname": "Фролова",
+            "age": 29,
+            "path_photo": "static/img/zhenya.jpg",
+            "specialization": ["врач", "акушер"]
+        }
+    ]
+}

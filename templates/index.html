@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+
+{% block content %}
+<form>
+    {% set person_info = dict_person|random()%}
+    <div>
+      <h2>{{person_info["name"]}} {{person_info["surname"]}}</h2>
+      <img src="{{ person_info['path_photo'] }}" alt="">
+      <p>{{person_info["specialization"]|sort|join(', ')}}</p>
+    </div>
+ </form>
+{% endblock %}
